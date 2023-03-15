@@ -1,11 +1,6 @@
 //Your Code here
 
 
-/* ordering prompts like this is sort of like hierarchical headings in legal docs */
-/* I was largely able to figure this out just with the prompts and pieces given in the lesson, and the knowledge from class that there would be new brackets opening before others closed. borrowed "window.alert" command from Asifa solution, got the order of the curly brackets correct on first try */
-/* thanks be to VS Code for allowing me to tab forward several lines of code at once and for wordwrap which btw is 'option + Z' */
-
-
 
 let firstAnswer  = window.prompt('Do you head left or right?')
 
@@ -55,9 +50,6 @@ else if(secondAnswer === 'continue')
 
 
 
-
-
-
 else if(firstAnswer === 'right') 
 {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
@@ -97,3 +89,10 @@ else if(secondAnswer === 'away from the dragon')
 
 }
 
+
+
+
+
+/* ordering prompts like this is sort of like hierarchical headings in legal docs */
+/* I was largely able to figure this out just with the prompts and pieces given in the lesson, and the knowledge from class that there would be new brackets opening before others closed. borrowed "window.alert" command from Asifa solution, got the order of the curly brackets correct on first try. Keeping the wording straight can seem a little squirrelly */
+/* thanks be to VS Code for allowing me to tab forward several lines of code at once and for wordwrap which btw is 'option + Z' */
