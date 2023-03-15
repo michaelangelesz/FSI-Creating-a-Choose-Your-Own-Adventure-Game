@@ -1,6 +1,6 @@
 //Your Code here
 /* ordering prompts like this is sort of like hierarchical headings in legal docs */
-/* largely able to figure this out just with the prompts and pieces given in the lesson, and the knowledge from class that there would be new brackets opening before others closed. borrowed "window.alert" command from Asifa solution, got the order of the curly brackets correct on first try */
+/* I was largely able to figure this out just with the prompts and pieces given in the lesson, and the knowledge from class that there would be new brackets opening before others closed. borrowed "window.alert" command from Asifa solution, got the order of the curly brackets correct on first try */
 /* thanks be to VS Code for allowing me to tab forward several lines of code at once and for wordwrap which btw is 'option + Z' */
 
 
@@ -13,6 +13,7 @@ if(firstAnswer === 'left')
         let secondAnswer = window.prompt(`You come across a stray cat. 
     It scampers off down a small hole, just large enough for you to crawl through. 
     Do you follow it, or continue on your path?`)
+    
     if(secondAnswer === 'follow')
     {
         let thirdAnswer = window.prompt(`You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.`)
@@ -21,7 +22,8 @@ if(firstAnswer === 'left')
         {
             window.alert(`You live happily amongst the cats for the rest of your days.`)
         }
-            else if(thirdAnswer === 'spread the word')
+           
+        else if(thirdAnswer === 'spread the word')
         {
             window.alert('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
@@ -35,6 +37,7 @@ else if(secondAnswer === 'continue')
         {
             window.alert(`After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.`)
         }
+
         else if(thirdAnswer === 'staircase')
         {
             window.alert(`After ascending the staircase, you discover a shiny blue stone, which you take home and cherish forever.`)
